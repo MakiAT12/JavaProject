@@ -1,0 +1,10 @@
+00 1007   ; READ first number into address 07
+01 1008   ; READ second number into address 08
+02 2007   ; LOAD from 07
+03 3408   ; MULTIPLY by value at 08
+04 2109   ; STORE result into 09
+05 1109   ; WRITE value at 09
+06 4300   ; HALT
+07 0000   ; first input
+08 0000   ; second input
+09 0000   ; result
